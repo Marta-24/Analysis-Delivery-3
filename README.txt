@@ -1,21 +1,13 @@
-Hey,
-Thanks for using our Heatmap generator tool.
+This is the third delivery of data analysis subject in CITM.
 
-You will find two main prefabs: DataSender and DataRepresentation
+You will find two main scenes in unity:
+- Gameply: Play the game and send the datas to server.
+- DataAnalysis: Analysis datas and generate heatmaps.
 
-How to use:
-	1. Drag DataSender on any scene you want to get data.
-	2. The script DataSender.cs contains a collecion of static functions that you can implement wherever you desire.
-	3. Drag DataRepresentation on the scene you want to display the heatmap.
-	4. Once playing to change displayed data:
+How to change displayed data when you are in game mode in DataAnalysis scene:
 		- F1: Position
 		- F2: Jump
 		- F3: Attack
 		- F4: Death
 		- F5: Hit
-		- F6: Heal
-		- F7: Checkpoint
-		- F8: Interactuable
-		- F9: Reload Information (do this any time you change something in the editor like. Ex: cellSize)
-
-	5. DataReader allData checkbox -> deactivate to see specific playerID data
+		- F6: Interactuable
